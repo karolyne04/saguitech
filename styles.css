@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #43919B;
+}
+
+.button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #30AADD;
+
+}
+
+.button:hover {
+    background-color: white;  
+    color: #30AADD;
+    border: 2px solid #30AADD;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.output p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.nota-fiscal {
+    border: 2px solid #43919B;  
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;  
+    background-color: #f9f9f9;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    font-family: 'Arial', sans-serif;
+}
+
+.result {
+    background-color: #F5F5F5;
+}
+
+.nota-fiscal-titulo {
+    color: #43919B;  
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nota-fiscal p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+
+.nota-fiscal-liquido {
+    font-size: 20px;
+    color: #43919B;  
+    font-weight: bold;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
